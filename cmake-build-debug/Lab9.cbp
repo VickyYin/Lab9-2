@@ -83,6 +83,18 @@
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/main.cpp">
 			<Option target="Lab9"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_factory.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_factory.hpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_game.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_game.hpp">
+			<Option target="Lab9"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab9.dir/main.cpp.o"
+  "CMakeFiles/Lab9.dir/maze_factory.cpp.o"
+  "CMakeFiles/Lab9.dir/maze_game.cpp.o"
   "Lab9.pdb"
   "Lab9.exe"
   "libLab9.dll.a"

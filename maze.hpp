@@ -4,5 +4,7 @@
 
 #ifndef LAB9_MAZE_HPP
 #define LAB9_MAZE_HPP
-virtual maze*
+class maze{
+    virtual void print() = 0;
+};
 #endif //LAB9_MAZE_HPP

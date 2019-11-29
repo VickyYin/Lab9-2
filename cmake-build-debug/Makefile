@@ -150,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+maze_factory.o: maze_factory.cpp.o
+
+.PHONY : maze_factory.o
+
+# target to build an object file
+maze_factory.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_factory.cpp.o
+.PHONY : maze_factory.cpp.o
+
+maze_factory.i: maze_factory.cpp.i
+
+.PHONY : maze_factory.i
+
+# target to preprocess a source file
+maze_factory.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_factory.cpp.i
+.PHONY : maze_factory.cpp.i
+
+maze_factory.s: maze_factory.cpp.s
+
+.PHONY : maze_factory.s
+
+# target to generate assembly for a file
+maze_factory.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_factory.cpp.s
+.PHONY : maze_factory.cpp.s
+
+maze_game.o: maze_game.cpp.o
+
+.PHONY : maze_game.o
+
+# target to build an object file
+maze_game.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_game.cpp.o
+.PHONY : maze_game.cpp.o
+
+maze_game.i: maze_game.cpp.i
+
+.PHONY : maze_game.i
+
+# target to preprocess a source file
+maze_game.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_game.cpp.i
+.PHONY : maze_game.cpp.i
+
+maze_game.s: maze_game.cpp.s
+
+.PHONY : maze_game.s
+
+# target to generate assembly for a file
+maze_game.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_game.cpp.s
+.PHONY : maze_game.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maze_factory.o"
+	@echo "... maze_factory.i"
+	@echo "... maze_factory.s"
+	@echo "... maze_game.o"
+	@echo "... maze_game.i"
+	@echo "... maze_game.s"
 .PHONY : help
 
 
