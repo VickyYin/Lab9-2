@@ -57,18 +57,18 @@ include CMakeFiles/Lab9.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab9.dir/flags.make
 
-CMakeFiles/Lab9.dir/main.cpp.o: CMakeFiles/Lab9.dir/flags.make
-CMakeFiles/Lab9.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab9.dir/main.cpp.o"
-	C:/COMP3522/Software/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab9.dir/main.cpp.o -c "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/main.cpp"
+CMakeFiles/Lab9.dir/driver.cpp.o: CMakeFiles/Lab9.dir/flags.make
+CMakeFiles/Lab9.dir/driver.cpp.o: ../driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab9.dir/driver.cpp.o"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab9.dir/driver.cpp.o -c "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/driver.cpp"
 
-CMakeFiles/Lab9.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab9.dir/main.cpp.i"
-	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/main.cpp" > CMakeFiles/Lab9.dir/main.cpp.i
+CMakeFiles/Lab9.dir/driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab9.dir/driver.cpp.i"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/driver.cpp" > CMakeFiles/Lab9.dir/driver.cpp.i
 
-CMakeFiles/Lab9.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/main.cpp.s"
-	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/main.cpp" -o CMakeFiles/Lab9.dir/main.cpp.s
+CMakeFiles/Lab9.dir/driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/driver.cpp.s"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/driver.cpp" -o CMakeFiles/Lab9.dir/driver.cpp.s
 
 CMakeFiles/Lab9.dir/maze_factory.cpp.o: CMakeFiles/Lab9.dir/flags.make
 CMakeFiles/Lab9.dir/maze_factory.cpp.o: ../maze_factory.cpp
@@ -96,21 +96,81 @@ CMakeFiles/Lab9.dir/maze_game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/maze_game.cpp.s"
 	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_game.cpp" -o CMakeFiles/Lab9.dir/maze_game.cpp.s
 
+CMakeFiles/Lab9.dir/maze.cpp.o: CMakeFiles/Lab9.dir/flags.make
+CMakeFiles/Lab9.dir/maze.cpp.o: ../maze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab9.dir/maze.cpp.o"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab9.dir/maze.cpp.o -c "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze.cpp"
+
+CMakeFiles/Lab9.dir/maze.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab9.dir/maze.cpp.i"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze.cpp" > CMakeFiles/Lab9.dir/maze.cpp.i
+
+CMakeFiles/Lab9.dir/maze.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/maze.cpp.s"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze.cpp" -o CMakeFiles/Lab9.dir/maze.cpp.s
+
+CMakeFiles/Lab9.dir/door.cpp.o: CMakeFiles/Lab9.dir/flags.make
+CMakeFiles/Lab9.dir/door.cpp.o: ../door.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab9.dir/door.cpp.o"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab9.dir/door.cpp.o -c "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/door.cpp"
+
+CMakeFiles/Lab9.dir/door.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab9.dir/door.cpp.i"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/door.cpp" > CMakeFiles/Lab9.dir/door.cpp.i
+
+CMakeFiles/Lab9.dir/door.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/door.cpp.s"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/door.cpp" -o CMakeFiles/Lab9.dir/door.cpp.s
+
+CMakeFiles/Lab9.dir/wall.cpp.o: CMakeFiles/Lab9.dir/flags.make
+CMakeFiles/Lab9.dir/wall.cpp.o: ../wall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab9.dir/wall.cpp.o"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab9.dir/wall.cpp.o -c "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/wall.cpp"
+
+CMakeFiles/Lab9.dir/wall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab9.dir/wall.cpp.i"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/wall.cpp" > CMakeFiles/Lab9.dir/wall.cpp.i
+
+CMakeFiles/Lab9.dir/wall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/wall.cpp.s"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/wall.cpp" -o CMakeFiles/Lab9.dir/wall.cpp.s
+
+CMakeFiles/Lab9.dir/room.cpp.o: CMakeFiles/Lab9.dir/flags.make
+CMakeFiles/Lab9.dir/room.cpp.o: ../room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab9.dir/room.cpp.o"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab9.dir/room.cpp.o -c "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/room.cpp"
+
+CMakeFiles/Lab9.dir/room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab9.dir/room.cpp.i"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/room.cpp" > CMakeFiles/Lab9.dir/room.cpp.i
+
+CMakeFiles/Lab9.dir/room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab9.dir/room.cpp.s"
+	C:/COMP3522/Software/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/room.cpp" -o CMakeFiles/Lab9.dir/room.cpp.s
+
 # Object files for target Lab9
 Lab9_OBJECTS = \
-"CMakeFiles/Lab9.dir/main.cpp.o" \
+"CMakeFiles/Lab9.dir/driver.cpp.o" \
 "CMakeFiles/Lab9.dir/maze_factory.cpp.o" \
-"CMakeFiles/Lab9.dir/maze_game.cpp.o"
+"CMakeFiles/Lab9.dir/maze_game.cpp.o" \
+"CMakeFiles/Lab9.dir/maze.cpp.o" \
+"CMakeFiles/Lab9.dir/door.cpp.o" \
+"CMakeFiles/Lab9.dir/wall.cpp.o" \
+"CMakeFiles/Lab9.dir/room.cpp.o"
 
 # External object files for target Lab9
 Lab9_EXTERNAL_OBJECTS =
 
-Lab9.exe: CMakeFiles/Lab9.dir/main.cpp.o
+Lab9.exe: CMakeFiles/Lab9.dir/driver.cpp.o
 Lab9.exe: CMakeFiles/Lab9.dir/maze_factory.cpp.o
 Lab9.exe: CMakeFiles/Lab9.dir/maze_game.cpp.o
+Lab9.exe: CMakeFiles/Lab9.dir/maze.cpp.o
+Lab9.exe: CMakeFiles/Lab9.dir/door.cpp.o
+Lab9.exe: CMakeFiles/Lab9.dir/wall.cpp.o
+Lab9.exe: CMakeFiles/Lab9.dir/room.cpp.o
 Lab9.exe: CMakeFiles/Lab9.dir/build.make
 Lab9.exe: CMakeFiles/Lab9.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Lab9.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Lab9.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab9.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

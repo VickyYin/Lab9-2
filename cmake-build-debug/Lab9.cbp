@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/main.cpp">
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/door.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/door.hpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/driver.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze.hpp">
 			<Option target="Lab9"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_factory.cpp">
@@ -93,6 +105,18 @@
 			<Option target="Lab9"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/maze_game.hpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/room.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/room.hpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/wall.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/wall.hpp">
 			<Option target="Lab9"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Lab9/CMakeLists.txt">

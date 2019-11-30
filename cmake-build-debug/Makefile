@@ -123,32 +123,86 @@ Lab9/fast:
 	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/build
 .PHONY : Lab9/fast
 
-main.o: main.cpp.o
+door.o: door.cpp.o
 
-.PHONY : main.o
+.PHONY : door.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/main.cpp.o
-.PHONY : main.cpp.o
+door.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/door.cpp.o
+.PHONY : door.cpp.o
 
-main.i: main.cpp.i
+door.i: door.cpp.i
 
-.PHONY : main.i
+.PHONY : door.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/main.cpp.i
-.PHONY : main.cpp.i
+door.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/door.cpp.i
+.PHONY : door.cpp.i
 
-main.s: main.cpp.s
+door.s: door.cpp.s
 
-.PHONY : main.s
+.PHONY : door.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/main.cpp.s
-.PHONY : main.cpp.s
+door.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/door.cpp.s
+.PHONY : door.cpp.s
+
+driver.o: driver.cpp.o
+
+.PHONY : driver.o
+
+# target to build an object file
+driver.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/driver.cpp.o
+.PHONY : driver.cpp.o
+
+driver.i: driver.cpp.i
+
+.PHONY : driver.i
+
+# target to preprocess a source file
+driver.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/driver.cpp.i
+.PHONY : driver.cpp.i
+
+driver.s: driver.cpp.s
+
+.PHONY : driver.s
+
+# target to generate assembly for a file
+driver.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/driver.cpp.s
+.PHONY : driver.cpp.s
+
+maze.o: maze.cpp.o
+
+.PHONY : maze.o
+
+# target to build an object file
+maze.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze.cpp.o
+.PHONY : maze.cpp.o
+
+maze.i: maze.cpp.i
+
+.PHONY : maze.i
+
+# target to preprocess a source file
+maze.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze.cpp.i
+.PHONY : maze.cpp.i
+
+maze.s: maze.cpp.s
+
+.PHONY : maze.s
+
+# target to generate assembly for a file
+maze.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze.cpp.s
+.PHONY : maze.cpp.s
 
 maze_factory.o: maze_factory.cpp.o
 
@@ -204,6 +258,60 @@ maze_game.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/maze_game.cpp.s
 .PHONY : maze_game.cpp.s
 
+room.o: room.cpp.o
+
+.PHONY : room.o
+
+# target to build an object file
+room.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/room.cpp.o
+.PHONY : room.cpp.o
+
+room.i: room.cpp.i
+
+.PHONY : room.i
+
+# target to preprocess a source file
+room.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/room.cpp.i
+.PHONY : room.cpp.i
+
+room.s: room.cpp.s
+
+.PHONY : room.s
+
+# target to generate assembly for a file
+room.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/room.cpp.s
+.PHONY : room.cpp.s
+
+wall.o: wall.cpp.o
+
+.PHONY : wall.o
+
+# target to build an object file
+wall.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/wall.cpp.o
+.PHONY : wall.cpp.o
+
+wall.i: wall.cpp.i
+
+.PHONY : wall.i
+
+# target to preprocess a source file
+wall.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/wall.cpp.i
+.PHONY : wall.cpp.i
+
+wall.s: wall.cpp.s
+
+.PHONY : wall.s
+
+# target to generate assembly for a file
+wall.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab9.dir/build.make CMakeFiles/Lab9.dir/wall.cpp.s
+.PHONY : wall.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab9"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... door.o"
+	@echo "... door.i"
+	@echo "... door.s"
+	@echo "... driver.o"
+	@echo "... driver.i"
+	@echo "... driver.s"
+	@echo "... maze.o"
+	@echo "... maze.i"
+	@echo "... maze.s"
 	@echo "... maze_factory.o"
 	@echo "... maze_factory.i"
 	@echo "... maze_factory.s"
 	@echo "... maze_game.o"
 	@echo "... maze_game.i"
 	@echo "... maze_game.s"
+	@echo "... room.o"
+	@echo "... room.i"
+	@echo "... room.s"
+	@echo "... wall.o"
+	@echo "... wall.i"
+	@echo "... wall.s"
 .PHONY : help
 
 
